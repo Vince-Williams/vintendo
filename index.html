@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintendo's Site</title>
+    <link id="lightSheet" rel="stylesheet" href="css/style.css">
+    <link id="darkSheet" rel="stylesheet" media="none" href="css/dark.css">
+</head>
+<!-- I see you snooping around in MY website, and I DON'T appreciate it!  -->
+
+<body>
+    <div id="content">
+        <div id="banner" class="bannerA">
+            <h1>About Me</h1>
+            <a id="colorSwitch" href="#" onclick="changeSheet(); setCookie('lightMode', lightMode, 128)">Fire Mode</a>
+        </div>
+        <div id="blogpost">
+            <div class="post">
+                <h2>About Me</h2>
+                <p>I am Vintendo. I mainly play Town of Salem 2 and am completing Henry Stickmin on PC/ Steam. I have
+                    beaten multiple Need for Speed games on Xbox.</p>
+                <p>Click <a class="a" href="about.html">here</a> to learn more.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="js/cookie.js"></script>
+<script>
+    var lightMode = getCookie('lightMode')
+</script>
+
+<script src="js/script.js">
+</script>
+
+
+</html>
